@@ -98,3 +98,25 @@ ul.jqtree_common .jqtree-toggler.jqtree-closed {
 .jqtree-closed ul {
 	display: none;
 }
+
+/* modified by Amitesh */
+
+ul.jqtree-tree .jqtree-title {
+    color: #1C4257;
+    vertical-align: middle;
+    margin-left: 20px;
+    padding-top: 4px;
+}
+
+ul.jqtree-tree .jqtree-title.jqtree-title-folder {
+    margin-left: 20px;
+    padding-top: 3px;
+}
+
+ul li.jqtree_common {
+    padding: 0;
+}
+
+ul.jqtree-tree li.jqtree-folder {
+    margin-bottom: 0px;
+}
